@@ -41,7 +41,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      // clickClick: true,
+      // clickClick: true,//
       cosmetics: []
     }
   }
