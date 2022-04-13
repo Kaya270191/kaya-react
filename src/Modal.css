@@ -1,0 +1,31 @@
+.Modal {
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid tan;
+    padding: 10px;
+    text-align: center;
+}
+/* 모달창보여주기 */
+.open{ 
+    display: block;
+}
+/* 모달창 숨기기 */
+.close{
+    display: none;
+}
+
+.header, .body, .footer{
+    padding: 5px;
+}
+.header{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.body{
+    font-size: 0.9rem;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
